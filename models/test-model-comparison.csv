@@ -1,0 +1,9 @@
+country,model,rmse,selected
+all,baseline,2197.0803046083097,False
+all,ridge,1390.7501833905344,True
+all,random_forest,2049.8326230880275,False
+all,gradient_boosting,2148.1398112069583,False
+germany,baseline,243.11825174453244,True
+germany,ridge,248.35288982695022,False
+germany,random_forest,304.66511820053466,False
+germany,gradient_boosting,307.3547321061512,False

@@ -1,0 +1,50 @@
+{
+  "performance": {
+    "country": "all",
+    "n": 92,
+    "model_rmse": 545.6968347607091,
+    "baseline_rmse": 2435.23131173402,
+    "model_mape": 0.028680129296102343,
+    "baseline_mape": 0.1559076639303378
+  },
+  "drift": {
+    "previous_7": {
+      "ks_stat": 0.37949899222574146,
+      "p_value": 1.354869089706395e-09,
+      "drift": true
+    },
+    "previous_14": {
+      "ks_stat": 0.48063633746040885,
+      "p_value": 2.3186712507838367e-15,
+      "drift": true
+    },
+    "previous_28": {
+      "ks_stat": 0.5629139072847682,
+      "p_value": 2.806948554555144e-21,
+      "drift": true
+    },
+    "previous_70": {
+      "ks_stat": 0.6556291390728477,
+      "p_value": 1.7717642705196714e-29,
+      "drift": true
+    },
+    "previous_year": {
+      "ks_stat": 0.38741721854304634,
+      "p_value": 5.374122814668118e-10,
+      "drift": true
+    },
+    "recent_invoices": {
+      "ks_stat": 0.5132450331125827,
+      "p_value": 1.4426403238895847e-17,
+      "drift": true
+    },
+    "recent_views": {
+      "ks_stat": 0.5364238410596026,
+      "p_value": 3.0349728916644485e-19,
+      "drift": true
+    }
+  },
+  "service": {
+    "n_calls": 0
+  }
+}

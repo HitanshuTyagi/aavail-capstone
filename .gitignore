@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+logs/*.log
+data/*/ts-data/
+models/*.joblib
+.DS_Store
